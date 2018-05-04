@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Animated, Easing, Modal, Text, TouchableOpacity, TouchableWithoutFeedback } from 'react-native';
+import { View, Animated, Easing, Modal, Text, ScrollView, TouchableOpacity, TouchableWithoutFeedback } from 'react-native';
 import PropTypes from 'prop-types';
 import Icon from '../Icon';
 import { windowHeight } from '../../utils/screen';
@@ -113,7 +113,9 @@ class Dialog extends React.PureComponent {
           transform]}
         >
           {this.renderHeader()}
-          {this.props.children}
+          <ScrollView>
+            {this.props.children}
+          </ScrollView>
         </Animated.View>
       </Modal>
     );

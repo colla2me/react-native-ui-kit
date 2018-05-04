@@ -65,6 +65,30 @@ export default class App extends Component<Props> {
             <Text style={styles.instructions}>
               {instructions}
             </Text>
+            <Text style={styles.instructions}>
+              To get started, edit App.js
+            </Text>
+            <Text style={styles.instructions}>
+              {instructions}
+            </Text>
+            <Text style={styles.instructions}>
+              To get started, edit App.js
+            </Text>
+            <Text style={styles.instructions}>
+              {instructions}
+            </Text>
+            <Text style={styles.instructions}>
+              To get started, edit App.js
+            </Text>
+            <Text style={styles.instructions}>
+              {instructions}
+            </Text>
+            <Text style={styles.instructions}>
+              To get started, edit App.js
+            </Text>
+            <Text style={styles.instructions}>
+              {instructions}
+            </Text>
           </View>
         </Dialog>
       </View>
@@ -85,6 +109,7 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   instructions: {
+    padding: 20,
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
